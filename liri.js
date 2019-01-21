@@ -6,3 +6,14 @@ require("dotenv").config();
 var keys = require("./keys.js");
 var spotify = new Spotify(keys.spotify);
 
+// pseudo-code
+
+/* Step 1
+use argv to accept the following input
+concert-this
+spotify-this-song
+movie-this
+do-what-it-says
+
+*/
+
