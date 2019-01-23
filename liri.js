@@ -4,20 +4,68 @@ require('dotenv').config();
 // import axios
 var axios = require("axios");
 
+var movieName = 'jaws';
+var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=trilogy";
 // test axios - this just a test and will need to be addressed and moved to the correct part of my program
-axios.get("http://www.omdbapi.com/?t=remember+the+titans&y=&plot=short&apikey=trilogy").then(
+/* we need
+
+* Title of the movie.
+   * Year the movie came out.
+   * IMDB Rating of the movie.
+   * Rotten Tomatoes Rating of the movie.
+   * Country where the movie was produced.
+   * Language of the movie.
+   * Plot of the movie.
+   * Actors in the movie.
+*/
+
+/*
+console.log(queryUrl);
+
+axios.get(queryUrl).then(
     function(response) {
-        console.log("The movie's rating is: " + response.data.imdbRating);
+        for (var key in response.data) {
+            // print each key value pair in object
+            console.log(response.data[key]);
+        }
+        // print the object
+        console.log(JSON.stringify(response.data));
     }
 );
 
+*/
+
 // test bands in town
+/* We need:
+    Name of the venue
+    Venue location
+    Date of the Event (use moment to format this as "MM/DD/YYYY") - use Moment
+*/  
 var artist = 'foo fighters';
-axios.get("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp").then(
+axios.get("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp").then( 
     function(response) {
-        console.log(response.data);
+        /* 
+            the response object is one large object consisting of numeric keys who's
+            value pair is an object consisting of sub-objects
+        */
+
+        // iterate through the returned response object and get the value of each key/value pair and capture it
+        for (var key in response.data) {
+            //console.log(key+' : '+ JSON.stringify(response.data[key]));
+            var value = response.data[key];
+
+            // capture the sub-objects within each returned value
+            for ( var subkey in value) {
+                // console.log(subkey+ ' : ' + value[subkey]);
+                // find the venue sub-sub-object
+                if (subkey === 'venue') {
+                    console.log(subkey);
+                }
+            }
+        } 
     }
 );
+
 
 // import keys
 var keys = require('./keys.js'); 
