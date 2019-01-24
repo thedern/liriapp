@@ -4,9 +4,13 @@ require('dotenv').config();
 // import axios
 var axios = require("axios");
 
+/*
+
 var movieName = 'jaws';
 var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=trilogy";
 // test axios - this just a test and will need to be addressed and moved to the correct part of my program
+*/
+
 /* we need
 
 * Title of the movie.
@@ -19,7 +23,7 @@ var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey
    * Actors in the movie.
 */
 
-
+/*
 console.log(queryUrl);
 
 axios.get(queryUrl).then(
@@ -60,7 +64,7 @@ axios.get(queryUrl).then(
 
     }
 );
-
+*/
 
 
 // test bands in town
@@ -114,13 +118,39 @@ var keys = require('./keys.js');
 // I think we need to create a constructor and pass it keys
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new
 
-function Spotify(auth) {
+/*function Spotify(auth) {
     this.auth = auth;
-}
+}*/
 
-// this is from instructions example, I am not sure if I need this yet
+// Establish constructor by importing the api
+var Spotify = require('node-spotify-api');
+
+// create new object
 var spotify = new Spotify(keys.spotify);
 console.log('spotify object is ', spotify);
+
+/* need the following from spotify
+
+Artist(s)
+The song's name
+A preview link of the song from Spotify
+The album that the song is from
+
+*/
+
+spotify.search({ type: 'track', query: '309' }).then(function(response) {
+
+    //console.log(response.tracks.items[0]);
+    var song = response.tracks.items[0];
+    
+    console.log(song.artists[0].name);
+    console.log(song.name);
+    console.log(song.album.name);
+    console.log(song.preview_url);
+
+}).catch(function(err) {
+    console.log(err);
+});
 
 // how to use spotify with promise or without I will test both
 // https://www.npmjs.com/package/node-spotify-api
