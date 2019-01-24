@@ -4,68 +4,50 @@ require('dotenv').config();
 // import axios
 var axios = require("axios");
 
-/*
+// Start Movie Function
+function movieSearch(movie) {      
+    var queryUrl = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=1468bff9";
+    
+    /*
+    * Title of the movie.
+    * Year the movie came out.
+    * IMDB Rating of the movie.
+    * Rotten Tomatoes Rating of the movie.
+    * Country where the movie was produced.
+    * Language of the movie.
+    * Plot of the movie.
+    * Actors in the movie.
+    */
 
-var movieName = 'jaws';
-var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=trilogy";
-// test axios - this just a test and will need to be addressed and moved to the correct part of my program
-*/
+    axios.get(queryUrl).then(
+        function(response) {
+        
+            console.log(`Title: ${response.data.Title}\nYear: ${response.data.Year}\nRated: ${response.data.Rated}`);
 
-/* we need
-
-* Title of the movie.
-   * Year the movie came out.
-   * IMDB Rating of the movie.
-   * Rotten Tomatoes Rating of the movie.
-   * Country where the movie was produced.
-   * Language of the movie.
-   * Plot of the movie.
-   * Actors in the movie.
-*/
-
-/*
-console.log(queryUrl);
-
-axios.get(queryUrl).then(
-    function(response) {
-        // for (var key in response.data) {
-        // print each key value pair in object
-        //   console.log(response.data[key]);
-
-        //}
-        // print the object
-        // console.log(JSON.stringify(response.data));
-        console.log(response.data.Title);
-        console.log(response.data.Year);
-        console.log(response.data.Rated);
-        // the critics ratings are a serices of objects (source : rating) from IMDB, Tomatoes, and Metacritic
-        for (keys in response.data.Ratings) {
-            var values = response.data.Ratings[keys];
-            // console.log(values);
-            // get the sub-ojects for critics scores and align the source and rating key value pairs for console.log
-            // uncomment the console.log above to see key value pairs in sub-objects
-            for (var subkeys in values) {
-                if (subkeys === 'Source') {
-                    var source = values[subkeys];
-                } else if (subkeys === 'Value') {
-                    var ratings = values[subkeys];
+            // the critics ratings are a serices of objects (source : rating) from IMDB, Tomatoes, and Metacritic
+            for (keys in response.data.Ratings) {
+                var values = response.data.Ratings[keys];
+                // console.log(values);
+                // get the sub-ojects for critics scores and align the source and rating key value pairs for console.log
+                // uncomment the console.log above to see key value pairs in sub-objects
+                for (var subkeys in values) {
+                    if (subkeys === 'Source') {
+                        var source = values[subkeys];
+                    } else if (subkeys === 'Value') {
+                        var ratings = values[subkeys];
+                    }
+                    
                 }
-                
+                // formatted key-value pairs
+                console.log(`${source} : ${ratings}`);
             }
-            // formatted key-value pairs
-            console.log(`${source} : ${ratings}`);
+            console.log( `Country: ${response.data.Country} \nLanguage: ${response.data.Language} \nPlot: ${response.data.Plot} \nActors: ${response.data.Actors} \n`);
+    
         }
-        console.log(response.data.Country);
-        console.log(response.data.Language);
-        console.log(response.data.Plot);
-        console.log(response.data.Actors);
-        // need a master format and a single console log, else done
+    );
+}
 
-
-    }
-);
-*/
-
+// END MOVIE FUNCTION
 
 // test bands in town
 /* We need:
@@ -127,7 +109,7 @@ var Spotify = require('node-spotify-api');
 
 // create new object
 var spotify = new Spotify(keys.spotify);
-console.log('spotify object is ', spotify);
+// console.log('spotify object is ', spotify);
 
 /* need the following from spotify
 
@@ -138,6 +120,7 @@ The album that the song is from
 
 */
 
+/*
 spotify.search({ type: 'track', query: '309' }).then(function(response) {
 
     //console.log(response.tracks.items[0]);
@@ -155,6 +138,8 @@ spotify.search({ type: 'track', query: '309' }).then(function(response) {
 // how to use spotify with promise or without I will test both
 // https://www.npmjs.com/package/node-spotify-api
 
+*/
+
 // test for command line args
 var nodeArgs = process.argv;
 
@@ -164,15 +149,34 @@ var userInput = '';
 /* 
     Guardian Statement
     Check if index[2] is empty or a parameter other than expected
+    || nodeArgs[2] !== 'concert-this' || nodeArgs[2] !== 'spotify-this-song' || nodeArgs[2] !== 'movie-this' || nodeArgs[2] !== 'do-what-it-says'
 */
-if (!nodeArgs[2] || nodeArgs[2] !== 'concert-this' || nodeArgs[2] !== 'spotify-this-song' 
-                 || nodeArgs[2] !== 'movie-this' || nodeArgs[2] !== 'do-what-it-says') {
+if (!nodeArgs[2]) {
     // useage statement
     console.log('SCRIPT USAGE: \n' +
-        'concert-this <band name> \n' +
-        'spotify-this-song <song name> \n' +
-        'movie-this <movie name> \n' +
-        'do-what-it-says \n');
+        'node liri concert-this <band name> \n' +
+        'node liri spotify-this-song <song name> \n' +
+        'node liri movie-this <movie name> \n' +
+        'node liri do-what-it-says \n' +
+        '##### please format your request based on the examples above #####');
+    process.exit();
+}
+
+switch (nodeArgs[2]) {
+case 'movie-this':
+    movieSearch(nodeArgs[3]);
+    break;
+case 'concert-this':
+    console.log('go to concert function');
+    break;
+case 'spotify-this-song':
+    console.log('go to spotify function');
+    break;
+case 'do-what-it-says':
+    console.log('go to do-function');
+    break;
+default:
+    console.log('??????????');
 }
 
 // inspect nodeArgs as input by the user starting at index[2]
