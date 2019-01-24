@@ -1,12 +1,23 @@
 
+// Start General Configs
+
 // code to read and set any environment variables with the dotenv package
 require('dotenv').config();
 // import axios
 var axios = require("axios");
+// import keys
+var keys = require('./keys.js');
+// Establish constructor by importing the api
+var Spotify = require('node-spotify-api');
+// create new object
+var spotify = new Spotify(keys.spotify);
+// console.log('spotify object is ', spotify);
+
+// End General Configs
 
 // Start Movie Function
 function movieSearch(movie) {      
-    var queryUrl = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=1468bff9";
+    var mQueryUrl = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=1468bff9";
     
     /*
     * Title of the movie.
@@ -19,7 +30,7 @@ function movieSearch(movie) {
     * Actors in the movie.
     */
 
-    axios.get(queryUrl).then(
+    axios.get(mQueryUrl).then(
         function(response) {
         
             console.log(`Title: ${response.data.Title}\nYear: ${response.data.Year}\nRated: ${response.data.Rated}`);
@@ -46,99 +57,95 @@ function movieSearch(movie) {
         }
     );
 }
-
 // END MOVIE FUNCTION
 
-// test bands in town
-/* We need:
-    Name of the venue
-    Venue location
-    Date of the Event (use moment to format this as "MM/DD/YYYY") - use Moment
-    Aside from formatting with Moment, this works 01/24/2019
-*/
-/*
-var artist = 'foo fighters';
-axios.get("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp").then( 
-    function(response) {
-        /* 
-            the response object is one large object consisting of numeric keys who's
-            value pair is an object consisting of sub-objects
+
+
+// START BAND SEARCH FUNCTION
+function bandSearch(artist) {
+    var bQueryUrl = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
+
+    /* We need:
+        Name of the venue
+        Venue location
+        Date of the Event (use moment to format this as "MM/DD/YYYY") - use Moment
+        Aside from formatting with Moment, this works 01/24/2019
+    */
+
+    axios.get(bQueryUrl).then( 
+        function(response) {
+            if (response.data.length === 0) {
+                console.log('no concert/show information is available for: ', artist);
+            } else {
+            /* 
+                the response object is one large object consisting of numeric keys who's
+                value pair is an object consisting of sub-objects
+            */
+
+                // iterate through the returned response object and get the value of each key/value pair and capture it
+                for (var key in response.data) {
+                    // console.log(key+' : '+ JSON.stringify(response.data[key]));
+                    var value = response.data[key];
+                    // capture the sub-objects within each returned value
+                    for ( var subkey in value) {
+                        // console.log(subkey+ ' : ' + value[subkey]);
+
+                        // find the venue sub-sub-object
+                        if (subkey === 'venue') {
+                            // console.log(subkey, value[subkey]);
+                            // test paring data from the venue object
+                            console.log('venue name : '+value[subkey].name);
+                            console.log('city : '+value[subkey].city+' , '+value[subkey].country);
+                        }
+
+                        // find the datetime key:value pair (not a sub-sub-object)
+                        if (subkey === 'datetime') {
+                            console.log(subkey, value[subkey]);
+                            // format date with moment js here
+                        }
+
+                        if (subkey === 'lineup') {
+                            console.log(subkey, value[subkey],'\n');
+                        }
+                    } //end inner for loop
+                } // end outtr for loop
+            } // end else
+    
+        }); // end callback function 
+}
+// END BAND SEARCH FUNCTION
+
+
+// START SPOTIFY FUNCTION
+
+function musicSearch(song) {
+    spotify.search({ type: 'track', query: song }).then(function(response) {
+
+        /* need the following from spotify
+
+        Artist(s)
+        The song's name
+        A preview link of the song from Spotify
+        The album that the song is from
+
         */
 
-/*
-        // iterate through the returned response object and get the value of each key/value pair and capture it
-        for (var key in response.data) {
-            //console.log(key+' : '+ JSON.stringify(response.data[key]));
-            var value = response.data[key];
-            // capture the sub-objects within each returned value
-            for ( var subkey in value) {
-                // console.log(subkey+ ' : ' + value[subkey]);
+        //console.log(response.tracks.items[0]);
+        var song = response.tracks.items[0];
+        
+        console.log(song.artists[0].name);
+        console.log(song.name);
+        console.log(song.album.name);
+        console.log(song.preview_url);
 
-                // find the datetime key:value pair (not a sub-sub-object)
-                if (subkey === 'datetime') {
-                    console.log(subkey, value[subkey]);
-                    // format date with moment js here
-                }
-                // find the venue sub-sub-object
-                if (subkey === 'venue') {
-                    // console.log(subkey, value[subkey]);
-                    // test paring data from the venue object
-                    console.log('venue name : '+value[subkey].name);
-                    console.log('city : '+value[subkey].city+' , '+value[subkey].country,'\n');
-                }
-            }
-        } 
-    }
-);
-*/
+    }).catch(function(err) {
+        console.log(err);
+    });
+}
+// END SPOTIFY FUNCTION
 
 
-// import keys
-var keys = require('./keys.js'); 
-
-// trying to create an objecy but where is the constructor? Spotify is not a constructor...
-// I think we need to create a constructor and pass it keys
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new
-
-/*function Spotify(auth) {
-    this.auth = auth;
-}*/
-
-// Establish constructor by importing the api
-var Spotify = require('node-spotify-api');
-
-// create new object
-var spotify = new Spotify(keys.spotify);
-// console.log('spotify object is ', spotify);
-
-/* need the following from spotify
-
-Artist(s)
-The song's name
-A preview link of the song from Spotify
-The album that the song is from
-
-*/
-
-/*
-spotify.search({ type: 'track', query: '309' }).then(function(response) {
-
-    //console.log(response.tracks.items[0]);
-    var song = response.tracks.items[0];
-    
-    console.log(song.artists[0].name);
-    console.log(song.name);
-    console.log(song.album.name);
-    console.log(song.preview_url);
-
-}).catch(function(err) {
-    console.log(err);
-});
-
-// how to use spotify with promise or without I will test both
-// https://www.npmjs.com/package/node-spotify-api
-
-*/
+////  MAIN ////
 
 // test for command line args
 var nodeArgs = process.argv;
@@ -162,15 +169,29 @@ if (!nodeArgs[2]) {
     process.exit();
 }
 
+// inspect nodeArgs as input by the user starting at index[3]
+for (var i = 3; i < nodeArgs.length; i++) {
+    // if nodeArgs has indexes greater than 3
+    if (i > 3 && i < nodeArgs.length) {
+        // concatinate indexes adding '+' in between the words
+        userInput+= '+' + nodeArgs[i];
+    } else {
+        // for nodeArgs index[2]
+        userInput += nodeArgs[i];
+    }
+    
+}
+
+
 switch (nodeArgs[2]) {
 case 'movie-this':
-    movieSearch(nodeArgs[3]);
+    movieSearch(userInput);
     break;
 case 'concert-this':
-    console.log('go to concert function');
+    bandSearch(userInput);
     break;
-case 'spotify-this-song':
-    console.log('go to spotify function');
+case 'spotify-this-song':   
+    musicSearch(userInput); 
     break;
 case 'do-what-it-says':
     console.log('go to do-function');
@@ -179,18 +200,6 @@ default:
     console.log('??????????');
 }
 
-// inspect nodeArgs as input by the user starting at index[2]
-for (var i = 2; i < nodeArgs.length; i++) {
-    // if nodeArgs has indexes greater than 2
-    if (i > 2 && i < nodeArgs.length) {
-        // concatinate indexes adding '+' in between the words
-        userInput = userInput + '+' + nodeArgs[i];
-    } else {
-        // for nodeArgs index[2]
-        userInput += nodeArgs[i];
-    }
 
-    console.log('userInput is ', userInput);
-}
 
 
