@@ -19,28 +19,58 @@ var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey
    * Actors in the movie.
 */
 
-/*
+
 console.log(queryUrl);
 
 axios.get(queryUrl).then(
     function(response) {
-        for (var key in response.data) {
-            // print each key value pair in object
-            console.log(response.data[key]);
-        }
+        // for (var key in response.data) {
+        // print each key value pair in object
+        //   console.log(response.data[key]);
+
+        //}
         // print the object
-        console.log(JSON.stringify(response.data));
+        // console.log(JSON.stringify(response.data));
+        console.log(response.data.Title);
+        console.log(response.data.Year);
+        console.log(response.data.Rated);
+        // the critics ratings are a serices of objects (source : rating) from IMDB, Tomatoes, and Metacritic
+        for (keys in response.data.Ratings) {
+            var values = response.data.Ratings[keys];
+            // console.log(values);
+            // get the sub-ojects for critics scores and align the source and rating key value pairs for console.log
+            // uncomment the console.log above to see key value pairs in sub-objects
+            for (var subkeys in values) {
+                if (subkeys === 'Source') {
+                    var source = values[subkeys];
+                } else if (subkeys === 'Value') {
+                    var ratings = values[subkeys];
+                }
+                
+            }
+            // formatted key-value pairs
+            console.log(`${source} : ${ratings}`);
+        }
+        console.log(response.data.Country);
+        console.log(response.data.Language);
+        console.log(response.data.Plot);
+        console.log(response.data.Actors);
+        // need a master format and a single console log, else done
+
+
     }
 );
 
-*/
+
 
 // test bands in town
 /* We need:
     Name of the venue
     Venue location
     Date of the Event (use moment to format this as "MM/DD/YYYY") - use Moment
-*/  
+    Aside from formatting with Moment, this works 01/24/2019
+*/
+/*
 var artist = 'foo fighters';
 axios.get("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp").then( 
     function(response) {
@@ -49,22 +79,32 @@ axios.get("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=cod
             value pair is an object consisting of sub-objects
         */
 
+/*
         // iterate through the returned response object and get the value of each key/value pair and capture it
         for (var key in response.data) {
             //console.log(key+' : '+ JSON.stringify(response.data[key]));
             var value = response.data[key];
-
             // capture the sub-objects within each returned value
             for ( var subkey in value) {
                 // console.log(subkey+ ' : ' + value[subkey]);
+
+                // find the datetime key:value pair (not a sub-sub-object)
+                if (subkey === 'datetime') {
+                    console.log(subkey, value[subkey]);
+                    // format date with moment js here
+                }
                 // find the venue sub-sub-object
                 if (subkey === 'venue') {
-                    console.log(subkey);
+                    // console.log(subkey, value[subkey]);
+                    // test paring data from the venue object
+                    console.log('venue name : '+value[subkey].name);
+                    console.log('city : '+value[subkey].city+' , '+value[subkey].country,'\n');
                 }
             }
         } 
     }
 );
+*/
 
 
 // import keys
