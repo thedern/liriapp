@@ -17,22 +17,17 @@ var spotify = new Spotify(keys.spotify);
 // enable file system access
 var fs = require('fs');
 
-
 // import moment and general date/time manipulation
 var moment = require('moment');
 var now = moment();
 // log execution time of the script
 logger(`\n-------\n${now}\n-------\n`);
 
-
 // END GENERAL CONFIGS
 
-/* TO DO 
-    -file system saves
-    -default function 
-*/
 
-// Start Movie Function
+// START MOVIE FUNCTION
+
 function movieSearch(movie) {      
     var mQueryUrl = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=1468bff9";
     
@@ -86,8 +81,8 @@ function movieSearch(movie) {
 // END MOVIE FUNCTION
 
 
-
 // START BAND SEARCH FUNCTION
+
 function bandSearch(artist) {
     var bQueryUrl = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
 
@@ -184,6 +179,7 @@ function musicSearch(song) {
 
 
 // START DO WHAT IT SAYS FUNCTION
+
 function doWhatItSays() {
     
     // read from random.txt
@@ -205,11 +201,11 @@ function doWhatItSays() {
         }
     }); 
 }
-
 // END DO WHAT IT SAYS FUNCITON
 
 
 // START LOGGER FUNCTION 
+
 function logger(logText) {
  
     /* using synchronous write else I have instances where data is written to file out of order
@@ -260,11 +256,9 @@ case 'spotify-this-song':
     musicSearch(userInput); 
     break;
 case 'do-what-it-says':
-    console.log('go to do-function');
-    // empty function
+    // takes no args
     doWhatItSays();
     break;
-
 default:
     console.log('SCRIPT USAGE: \n' +
     'node liri concert-this <band name> \n' +
@@ -274,7 +268,7 @@ default:
     '##### please format your request based on the examples above #####');
     process.exit();
 }
-
+// END MAIN
 
 
 
