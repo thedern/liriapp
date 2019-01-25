@@ -120,19 +120,29 @@ function bandSearch(artist) {
                         if (subkey === 'venue') {
                             // console.log(subkey, value[subkey]);
                             // test paring data from the venue object
-                            console.log(`venue name :  ${value[subkey].name}`);
-                            console.log(`city : ${value[subkey].city} country ${value[subkey].country}`);
+                             
+                            var blogInfo1 = (`venue name :  ${value[subkey].name}`);
+                            console.log(blogInfo1);
+                            logger(`${blogInfo1}\n`);
+                            var blogInfo2 = (`city : ${value[subkey].city} country ${value[subkey].country}`);
+                            console.log(blogInfo2);
+                            logger(`${blogInfo2}\n`);
                         }
 
                         // find the datetime key:value pair (not a sub-sub-object)
                         if (subkey === 'datetime') {
                             // format date with moment js
-                            console.log(`${subkey}: ${moment(value[subkey]).format('MM-DD-YYYY')}`);
+                            var blogInfo3 = (`${subkey}: ${moment(value[subkey]).format('MM-DD-YYYY')}`);
+                            console.log(blogInfo3);
+                            logger(`${blogInfo3}\n`);
                             
                         }
 
                         if (subkey === 'lineup') {
-                            console.log(subkey, value[subkey],'\n');
+                            var blogInfo4 = (`${subkey}: ${value[subkey]}\n`);
+                            console.log(blogInfo4);
+                            logger(`${blogInfo4}\n`);
+
                         }
                     } //end inner for loop
                 } // end outtr for loop
@@ -161,10 +171,10 @@ function musicSearch(song) {
         // console.log(song.length);
         for (var i = 0; i < song.length; i++){
 
-            logInfo = (`Artist:  ${song[i].artists[0].name}\nSong:  ${song[i].name}\nAlbum:  ${song[i].album.name}\nPreview URL:  ${song[i].preview_url}\n\n`);
-            console.log(logInfo);
+            var slogInfo = (`Artist:  ${song[i].artists[0].name}\nSong:  ${song[i].name}\nAlbum:  ${song[i].album.name}\nPreview URL:  ${song[i].preview_url}\n\n`);
+            console.log(slogInfo);
             // call logger
-            logger(logInfo);
+            logger(slogInfo);
         }
     
     }).catch(function(err) {
@@ -177,7 +187,10 @@ function musicSearch(song) {
 // START LOGGER function 
 function logger(logText) {
  
-    
+    /* using synchronous write else I have instances where data is written to file out of order
+       //#endregionI could fix this by changing the way I am logging instead so I could use aysnc writes
+       but for such a small anount of data, I don't want to :) */
+
     fs.appendFileSync('log.txt', logText, function(err) {
 
         // If an error was experienced we will log it.
@@ -186,12 +199,8 @@ function logger(logText) {
         }
     
     }); 
-
-    
 }
 // END LOGGER FUNCTION
-
-
 
 
 ///////////  MAIN ///////////
