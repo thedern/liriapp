@@ -1,5 +1,5 @@
 
-// Start General Configs
+// START GENERAL CONFIGS
 
 // code to read and set any environment variables with the dotenv package
 require('dotenv').config();
@@ -12,8 +12,22 @@ var Spotify = require('node-spotify-api');
 // create new object
 var spotify = new Spotify(keys.spotify);
 // console.log('spotify object is ', spotify);
+var fs = require('fs');
+// import moment
+var moment = require('moment');
 
-// End General Configs
+
+
+// END GENERAL CONFIGS
+
+/* TO DO 
+    -file system saves
+    -momnent date format on band
+    -songs need to get all output not just item[0]
+    -default function
+
+
+*/
 
 // Start Movie Function
 function movieSearch(movie) {      
@@ -94,14 +108,15 @@ function bandSearch(artist) {
                         if (subkey === 'venue') {
                             // console.log(subkey, value[subkey]);
                             // test paring data from the venue object
-                            console.log('venue name : '+value[subkey].name);
-                            console.log('city : '+value[subkey].city+' , '+value[subkey].country);
+                            console.log(`venue name :  ${value[subkey].name}`);
+                            console.log(`city : ${value[subkey].city} country ${value[subkey].country}`);
                         }
 
                         // find the datetime key:value pair (not a sub-sub-object)
                         if (subkey === 'datetime') {
-                            console.log(subkey, value[subkey]);
-                            // format date with moment js here
+                            // format date with moment js
+                            console.log(`${subkey}: ${moment(value[subkey]).format('MM-DD-YYYY')}`);
+                            
                         }
 
                         if (subkey === 'lineup') {
@@ -153,30 +168,13 @@ var nodeArgs = process.argv;
 // declare string as empty else get an 'undefined' as first element in array
 var userInput = '';
 
-/* 
-    Guardian Statement
-    Check if index[2] is empty or a parameter other than expected
-    || nodeArgs[2] !== 'concert-this' || nodeArgs[2] !== 'spotify-this-song' || nodeArgs[2] !== 'movie-this' || nodeArgs[2] !== 'do-what-it-says'
-*/
-if (!nodeArgs[2]) {
-    // useage statement
-    console.log('SCRIPT USAGE: \n' +
-        'node liri concert-this <band name> \n' +
-        'node liri spotify-this-song <song name> \n' +
-        'node liri movie-this <movie name> \n' +
-        'node liri do-what-it-says \n' +
-        '##### please format your request based on the examples above #####');
-    process.exit();
-}
-
 // inspect nodeArgs as input by the user starting at index[3]
 for (var i = 3; i < nodeArgs.length; i++) {
-    // if nodeArgs has indexes greater than 3
+    // if nodeArgs has indexes greater than 3, concatinate indexes adding '+' in between the words
     if (i > 3 && i < nodeArgs.length) {
-        // concatinate indexes adding '+' in between the words
         userInput+= '+' + nodeArgs[i];
     } else {
-        // for nodeArgs index[2]
+        // for nodeArgs index[3]
         userInput += nodeArgs[i];
     }
     
@@ -196,8 +194,15 @@ case 'spotify-this-song':
 case 'do-what-it-says':
     console.log('go to do-function');
     break;
+
 default:
-    console.log('??????????');
+    console.log('SCRIPT USAGE: \n' +
+    'node liri concert-this <band name> \n' +
+    'node liri spotify-this-song <song name> \n' +
+    'node liri movie-this <movie name> \n' +
+    'node liri do-what-it-says \n' +
+    '##### please format your request based on the examples above #####');
+    process.exit();
 }
 
 
