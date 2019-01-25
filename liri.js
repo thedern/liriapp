@@ -146,13 +146,16 @@ function musicSearch(song) {
         */
 
         //console.log(response.tracks.items[0]);
-        var song = response.tracks.items[0];
+        // var song = response.tracks.items[0];
         
-        console.log(song.artists[0].name);
-        console.log(song.name);
-        console.log(song.album.name);
-        console.log(song.preview_url);
-
+        // song captures array of tracks
+        var song = response.tracks.items;
+        // see how many tracks by console logging the length of the song array
+        // console.log(song.length);
+        for (var i = 0; i < song.length; i++){
+            console.log(`Artist:  ${song[i].artists[0].name}\nSong:  ${song[i].name}\nAlbum:  ${song[i].album.name}\nPreview URL:  ${song[i].preview_url}\n\n`);
+        }
+    
     }).catch(function(err) {
         console.log(err);
     });
