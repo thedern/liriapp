@@ -17,22 +17,17 @@ var spotify = new Spotify(keys.spotify);
 // enable file system access
 var fs = require('fs');
 
-
 // import moment and general date/time manipulation
 var moment = require('moment');
 var now = moment();
 // log execution time of the script
 logger(`\n-------\n${now}\n-------\n`);
 
-
 // END GENERAL CONFIGS
 
-/* TO DO 
-    -file system saves
-    -default function 
-*/
 
-// Start Movie Function
+// START MOVIE FUNCTION
+
 function movieSearch(movie) {      
     var mQueryUrl = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=1468bff9";
     
@@ -86,16 +81,15 @@ function movieSearch(movie) {
 // END MOVIE FUNCTION
 
 
-
 // START BAND SEARCH FUNCTION
+
 function bandSearch(artist) {
     var bQueryUrl = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
 
     /* We need:
         Name of the venue
         Venue location
-        Date of the Event (use moment to format this as "MM/DD/YYYY") - use Moment
-        Aside from formatting with Moment, this works 01/24/2019
+        Date of the Event (use moment to format this as "MM/DD/YYYY")
     */
 
     axios.get(bQueryUrl).then( 
@@ -184,7 +178,34 @@ function musicSearch(song) {
 // END SPOTIFY FUNCTION
 
 
-// START LOGGER function 
+// START DO WHAT IT SAYS FUNCTION
+
+function doWhatItSays() {
+    
+    // read from random.txt
+    fs.readFile('./random.txt','utf8', function(err, data) {
+        var entries = data.split(',');
+        // function call based on random.txt
+        switch (entries[0]) {
+        case 'movie-this':
+            movieSearch(userInput);
+            break;
+        case 'concert-this':
+            bandSearch(userInput);
+            break;
+        case 'spotify-this-song':   
+            musicSearch(userInput); 
+            break;
+        default:
+            console.log('I have no idea what you want me to do!')
+        }
+    }); 
+}
+// END DO WHAT IT SAYS FUNCITON
+
+
+// START LOGGER FUNCTION 
+
 function logger(logText) {
  
     /* using synchronous write else I have instances where data is written to file out of order
@@ -223,7 +244,7 @@ for (var i = 3; i < nodeArgs.length; i++) {
     
 }
 
-// switch statement to evaluate input
+// switch statement to evaluate user input
 switch (nodeArgs[2]) {
 case 'movie-this':
     movieSearch(userInput);
@@ -235,9 +256,9 @@ case 'spotify-this-song':
     musicSearch(userInput); 
     break;
 case 'do-what-it-says':
-    console.log('go to do-function');
+    // takes no args
+    doWhatItSays();
     break;
-
 default:
     console.log('SCRIPT USAGE: \n' +
     'node liri concert-this <band name> \n' +
@@ -247,7 +268,7 @@ default:
     '##### please format your request based on the examples above #####');
     process.exit();
 }
-
+// END MAIN
 
 
 
