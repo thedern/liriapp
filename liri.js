@@ -3,30 +3,33 @@
 
 // code to read and set any environment variables with the dotenv package
 require('dotenv').config();
-// import axios
-var axios = require("axios");
-// import keys
-var keys = require('./keys.js');
-// Establish constructor by importing the api
-var Spotify = require('node-spotify-api');
-// create new object
-var spotify = new Spotify(keys.spotify);
-// console.log('spotify object is ', spotify);
-var fs = require('fs');
-// import moment
-var moment = require('moment');
 
+// import axios
+var axios = require('axios');
+
+// import keys and enable spotify functionality
+var keys = require('./keys.js');
+
+// establish constructor by importing the api, create new spotify object
+var Spotify = require('node-spotify-api');
+var spotify = new Spotify(keys.spotify);
+
+// enable file system access
+var fs = require('fs');
+
+
+// import moment and general date/time manipulation
+var moment = require('moment');
+var now = moment();
+// log execution time of the script
+logger(`\n-------\n${now}\n-------\n`);
 
 
 // END GENERAL CONFIGS
 
 /* TO DO 
     -file system saves
-    -momnent date format on band
-    -songs need to get all output not just item[0]
-    -default function
-
-
+    -default function 
 */
 
 // Start Movie Function
@@ -47,7 +50,10 @@ function movieSearch(movie) {
     axios.get(mQueryUrl).then(
         function(response) {
         
-            console.log(`Title: ${response.data.Title}\nYear: ${response.data.Year}\nRated: ${response.data.Rated}`);
+            var mlogInfo1 = (`Title: ${response.data.Title}\nYear: ${response.data.Year}\nRated: ${response.data.Rated}`);
+            console.log(mlogInfo1);
+            // call logger
+            logger(`${mlogInfo1}\n`);
 
             // the critics ratings are a serices of objects (source : rating) from IMDB, Tomatoes, and Metacritic
             for (keys in response.data.Ratings) {
@@ -64,9 +70,15 @@ function movieSearch(movie) {
                     
                 }
                 // formatted key-value pairs
-                console.log(`${source} : ${ratings}`);
+                var mlogInfo2 = (`${source} : ${ratings}`);
+                console.log(mlogInfo2);
+                // call logger
+                logger(`${mlogInfo2}\n`);
             }
-            console.log( `Country: ${response.data.Country} \nLanguage: ${response.data.Language} \nPlot: ${response.data.Plot} \nActors: ${response.data.Actors} \n`);
+            var mlogInfo3 = ( `Country: ${response.data.Country} \nLanguage: ${response.data.Language} \nPlot: ${response.data.Plot} \nActors: ${response.data.Actors}`);
+            console.log(mlogInfo3);
+            // call logger
+            logger(`${mlogInfo3}\n`);
     
         }
     );
@@ -137,23 +149,22 @@ function musicSearch(song) {
     spotify.search({ type: 'track', query: song }).then(function(response) {
 
         /* need the following from spotify
-
         Artist(s)
         The song's name
         A preview link of the song from Spotify
         The album that the song is from
-
         */
-
-        //console.log(response.tracks.items[0]);
-        // var song = response.tracks.items[0];
         
         // song captures array of tracks
         var song = response.tracks.items;
         // see how many tracks by console logging the length of the song array
         // console.log(song.length);
         for (var i = 0; i < song.length; i++){
-            console.log(`Artist:  ${song[i].artists[0].name}\nSong:  ${song[i].name}\nAlbum:  ${song[i].album.name}\nPreview URL:  ${song[i].preview_url}\n\n`);
+
+            logInfo = (`Artist:  ${song[i].artists[0].name}\nSong:  ${song[i].name}\nAlbum:  ${song[i].album.name}\nPreview URL:  ${song[i].preview_url}\n\n`);
+            console.log(logInfo);
+            // call logger
+            logger(logInfo);
         }
     
     }).catch(function(err) {
@@ -163,7 +174,27 @@ function musicSearch(song) {
 // END SPOTIFY FUNCTION
 
 
-////  MAIN ////
+// START LOGGER function 
+function logger(logText) {
+ 
+    
+    fs.appendFileSync('log.txt', logText, function(err) {
+
+        // If an error was experienced we will log it.
+        if (err) {
+            console.log(err);
+        }
+    
+    }); 
+
+    
+}
+// END LOGGER FUNCTION
+
+
+
+
+///////////  MAIN ///////////
 
 // test for command line args
 var nodeArgs = process.argv;
@@ -183,7 +214,7 @@ for (var i = 3; i < nodeArgs.length; i++) {
     
 }
 
-
+// switch statement to evaluate input
 switch (nodeArgs[2]) {
 case 'movie-this':
     movieSearch(userInput);
