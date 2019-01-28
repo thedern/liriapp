@@ -28,8 +28,15 @@ logger(`\n-------\n${now}\n-------\n`);
 
 // START MOVIE FUNCTION
 
-function movieSearch(movie) {      
+function movieSearch(movie) {  
+    
+    // guardian statement for running query without a movie title.
+    if (!movie) {
+        console.log('please enter a movie for which to search');
+        process.exit();
+    }
     var mQueryUrl = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=1468bff9";
+
     
     /*
     * Title of the movie.
@@ -46,7 +53,8 @@ function movieSearch(movie) {
         function(response) {
 
             // guardian statement for nonsense input :)
-            if (response.data.title === undefined) {
+            if (response.data.Error) {
+                console.log(`${response.data.Error}`);
                 console.log('no movie exists by that name, please search for another');
                 process.exit();
             }
@@ -90,6 +98,13 @@ function movieSearch(movie) {
 // START BAND SEARCH FUNCTION
 
 function bandSearch(artist) {
+
+    // guardian statement for running query without a movie title.
+    if (!artist) {
+        console.log('please enter an artist/band for which to search');
+        process.exit();
+    }
+
     var bQueryUrl = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
 
     /* We need:
@@ -100,7 +115,8 @@ function bandSearch(artist) {
 
     axios.get(bQueryUrl).then( 
         function(response) {
-            if (response.data.length === 0) {
+           
+            if (response.data.length === 0 || response.data.includes('warn=Not found')) {
                 console.log('no concert/show information is available for: ', artist);
             } else {
             /* 
@@ -147,8 +163,9 @@ function bandSearch(artist) {
                     } //end inner for loop
                 } // end outtr for loop
             } // end else
-    
-        }); // end callback function 
+        }).catch(function(err){
+        console.log('error, there is no artist by that name');
+    });// end callback function 
 }
 // END BAND SEARCH FUNCTION
 
@@ -156,6 +173,13 @@ function bandSearch(artist) {
 // START SPOTIFY FUNCTION
 
 function musicSearch(song) {
+
+    // guardian statement for running query without a movie title.
+    if (!song) {
+        console.log('please enter a song for which to search');
+        process.exit();
+    }
+
     spotify.search({ type: 'track', query: song }).then(function(response) {
 
         /* need the following from spotify
@@ -200,13 +224,13 @@ function doWhatItSays() {
         // function call based on random.txt
         switch (entries[0]) {
         case 'movie-this':
-            movieSearch(userInput);
+            movieSearch(entries[1]);
             break;
         case 'concert-this':
-            bandSearch(userInput);
+            bandSearch(entries[1]);
             break;
         case 'spotify-this-song':   
-            musicSearch(userInput); 
+            musicSearch(entries[1]); 
             break;
         default:
             console.log('I have no idea what you want me to do!')
@@ -230,7 +254,6 @@ function logger(logText) {
         if (err) {
             console.log(err);
         }
-    
     }); 
 }
 // END LOGGER FUNCTION
