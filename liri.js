@@ -44,6 +44,12 @@ function movieSearch(movie) {
 
     axios.get(mQueryUrl).then(
         function(response) {
+
+            // guardian statement for nonsense input :)
+            if (response.data.title === undefined) {
+                console.log('no movie exists by that name, please search for another');
+                process.exit();
+            }
         
             var mlogInfo1 = (`Title: ${response.data.Title}\nYear: ${response.data.Year}\nRated: ${response.data.Rated}`);
             console.log(mlogInfo1);
@@ -158,6 +164,12 @@ function musicSearch(song) {
         A preview link of the song from Spotify
         The album that the song is from
         */
+        
+        // guardian statement for nonsense input :)
+        if (response.tracks.items.length === 0) {
+            console.log('the requested song does not exist within spotify, please search for another')
+            process.exit();
+        }
         
         // song captures array of tracks
         var song = response.tracks.items;
