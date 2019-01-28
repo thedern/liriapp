@@ -1,104 +1,234 @@
 
 -------
-Fri Jan 25 2019 16:09:18 GMT-0500
--------
-Title: Jaws
-Year: 1975
-Rated: PG
-Internet Movie Database : 8.0/10
-Rotten Tomatoes : 97%
-Metacritic : 87/100
-Country: USA 
-Language: English 
-Plot: When a killer shark unleashes chaos on a beach resort, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down. 
-Actors: Roy Scheider, Robert Shaw, Richard Dreyfuss, Lorraine Gary
-
--------
-Fri Jan 25 2019 16:18:43 GMT-0500
+Mon Jan 28 2019 17:07:56 GMT-0500
 -------
 
 -------
-Fri Jan 25 2019 16:18:55 GMT-0500
+Mon Jan 28 2019 17:08:29 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:09:23 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:09:39 GMT-0500
+-------
+Artist:  Rush
+Song:  YYZ
+Album:  Moving Pictures (2011 Remaster)
+Preview URL:  null
+
+Artist:  GTA
+Song:  YYZ
+Album:  La Nueva Clásica
+Preview URL:  https://p.scdn.co/mp3-preview/272a1cec85ca9c2cd0445c430d635aeb019833a4?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  Rush
+Song:  YYZ - Live In Canada / 1980
+Album:  Exit ... Stage Left
+Preview URL:  null
+
+Artist:  BLAISE MOORE
+Song:  YYZ
+Album:  LAURENCE
+Preview URL:  null
+
+Artist:  YYZ
+Song:  Hand Me That
+Album:  The Reason
+Preview URL:  https://p.scdn.co/mp3-preview/3ee9c09dbe188b10c2408413ef1097d09b837b98?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  Rush
+Song:  YYZ - Live R40 Tour
+Album:  R40 Live (Live At Air Canada Centre, Toronto, Canada / June 2015)
+Preview URL:  null
+
+Artist:  Rush
+Song:  YYZ - Rio Live
+Album:  Rush In Rio (U.S. Version)
+Preview URL:  https://p.scdn.co/mp3-preview/e7e1899f0bb844a2542363c02116fda521f7d125?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  Rush
+Song:  YYZ - Live In Canada / 1980
+Album:  Exit ... Stage Left
+Preview URL:  null
+
+Artist:  Rush
+Song:  YYZ
+Album:  Different Stages .Live
+Preview URL:  https://p.scdn.co/mp3-preview/cb189baec348b55a2acb490ee9d8da8a9f9eba0b?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  Rush
+Song:  YYZ - Live In Cleveland - MP Version
+Album:  Moving Pictures: Live 2011
+Preview URL:  https://p.scdn.co/mp3-preview/cd9b39923a8f8f68a9a8e7209437a7cb2571b0dc?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  Rush
+Song:  YYZ - Live In Cleveland
+Album:  Time Machine 2011: Live In Cleveland
+Preview URL:  https://p.scdn.co/mp3-preview/0e413a1c679bd1da2e74187f39b6e84a4e30804c?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  Rush
+Song:  YYZ [with Clockwork Angels String Ensemble] - Live
+Album:  Clockwork Angels Tour
+Preview URL:  https://p.scdn.co/mp3-preview/e9c67ec73f012f5d19211efb4d5595085347ac7a?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  Rush
+Song:  YYZ
+Album:  Guitar & Bass
+Preview URL:  null
+
+Artist:  Rush
+Song:  YYZ - Snakes & Arrows Live Version
+Album:  Snakes & Arrows Live
+Preview URL:  https://p.scdn.co/mp3-preview/4e1c291e03e1ae5569188b5663cd94dd02af5f5b?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  Rush
+Song:  Medley: YYZ / Temples Of Syrinx / Tom Sawyer - Live - Grace Under Pressure Tour
+Album:  Grace Under Pressure Tour Live (Live - Grace Under Pressure Tour)
+Preview URL:  null
+
+Artist:  Rush
+Song:  YYZ - Rio Live
+Album:  Working Men
+Preview URL:  https://p.scdn.co/mp3-preview/73dd67c9ff0e63734bcf38ce8699867fb5bff164?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  YYZ
+Song:  500 Miles
+Album:  The Reason
+Preview URL:  https://p.scdn.co/mp3-preview/4e8186a295e1ff299b06151800a9bc4a62be124a?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  James Murphy
+Song:  YYZ
+Album:  Working Man
+Preview URL:  https://p.scdn.co/mp3-preview/f551330aaaa116a8240a9eecdcd6bf54806d504c?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  YYZ
+Song:  The Prayer (feat. Braden K)
+Album:  The Reason
+Preview URL:  https://p.scdn.co/mp3-preview/9851df4cede3d25e2c3098a456e029e2e06c884a?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  Bryce Williams
+Song:  Hou to Yyz
+Album:  Stamped - EP
+Preview URL:  https://p.scdn.co/mp3-preview/65fe31c14b905f5a809446962c198073eaba723a?cid=4f17c33480014e18b6416ca14b3ebba7
+
+
+-------
+Mon Jan 28 2019 17:09:46 GMT-0500
+-------
+Artist:  Aerosmith
+Song:  Dream On
+Album:  Aerosmith
+Preview URL:  https://p.scdn.co/mp3-preview/4c7fea33f70ea10631656c9bccace988ee2aaa42?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  Empire of the Sun
+Song:  Walking On A Dream
+Album:  Walking On A Dream (Special Edition)
+Preview URL:  null
+
+Artist:  Aerosmith
+Song:  Dream On
+Album:  The Essential Aerosmith
+Preview URL:  https://p.scdn.co/mp3-preview/27afb191a9ef51571fc367db4c229e92c162ca5f?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  The War On Drugs
+Song:  Red Eyes
+Album:  Lost In The Dream
+Preview URL:  https://p.scdn.co/mp3-preview/8e9a8b60c2f9b392f48492301875ddbef4e48d60?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  Louis Armstrong
+Song:  A Kiss To Build A Dream On - Single Version
+Album:  The Best Of The Decca Years Volume One: The Singer
+Preview URL:  null
+
+Artist:  Blacktop Mojo
+Song:  Dream On
+Album:  Burn the Ships
+Preview URL:  https://p.scdn.co/mp3-preview/3a2be3fe805b80fddd10b8c800180976038efdac?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  Empire of the Sun
+Song:  We Are The People
+Album:  Walking On A Dream (Special Edition)
+Preview URL:  null
+
+Artist:  The War On Drugs
+Song:  Under The Pressure
+Album:  Lost In The Dream
+Preview URL:  https://p.scdn.co/mp3-preview/76a36bc9557a89099434edad9d69b6106cfdd51b?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  Aerosmith
+Song:  Dream On
+Album:  Aerosmith's Greatest Hits
+Preview URL:  https://p.scdn.co/mp3-preview/5b8d84fe03a20b41718bc88c53490d450e422ef2?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  Jaydayoungan
+Song:  Dream On
+Album:  Wake Up
+Preview URL:  https://p.scdn.co/mp3-preview/c9b36005496fe578ed7194f991348ea9d9eb420a?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  Empire of the Sun
+Song:  Standing On The Shore
+Album:  Walking On A Dream (Special Edition)
+Preview URL:  null
+
+Artist:  Empire of the Sun
+Song:  Half Mast
+Album:  Walking On A Dream
+Preview URL:  null
+
+Artist:  Ronnie James Dio
+Song:  Dream On
+Album:  This Is '80s Hair Metal
+Preview URL:  https://p.scdn.co/mp3-preview/bb4d35bd261ad0ebf4b975e088c0efd9bd7aac12?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  The War On Drugs
+Song:  An Ocean In Between The Waves
+Album:  Lost In The Dream
+Preview URL:  https://p.scdn.co/mp3-preview/721c1b4fa45abf968e349d66b78d7b5353f64935?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  The War On Drugs
+Song:  Suffering
+Album:  Lost In The Dream
+Preview URL:  https://p.scdn.co/mp3-preview/3b287e7d8ed28ebdaa5004f62d660a89422accf6?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  NCT 127
+Song:  Knock On
+Album:  NCT #127 Regular-Irregular - The 1st Album
+Preview URL:  https://p.scdn.co/mp3-preview/a4af0031e17414707f831d5479fb49fd937ca0d5?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  Andrew McMahon in the Wilderness
+Song:  Walking On A Dream - Recorded At Spotify Studios NYC
+Album:  Spotify Singles
+Preview URL:  null
+
+Artist:  Empire of the Sun
+Song:  We Are The People
+Album:  Walking On A Dream
+Preview URL:  null
+
+Artist:  The-Dream
+Song:  On The Regular
+Album:  Ménage à Trois: Sextape Vol. 1, 2, 3
+Preview URL:  https://p.scdn.co/mp3-preview/c6d258e7e459c6fd6f78300f92e05df07e154aeb?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  Blockhead
+Song:  Dream On
+Album:  Free Sweatpants
+Preview URL:  https://p.scdn.co/mp3-preview/ea6daef19300da69bc4f4f78008322e8658fe0e9?cid=4f17c33480014e18b6416ca14b3ebba7
+
+
+-------
+Mon Jan 28 2019 17:09:53 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:10:07 GMT-0500
 -------
 venue name :  DIRECTV Super Saturday Night
 city : Atlanta country United States
 datetime: 02-02-2019
-Foo Fighters
-venue name :  The Fillmore New Orleans
-city : New Orleans country United States
-datetime: 02-15-2019
-Foo Fighters
-venue name :  The Fillmore New Orleans
-city : New Orleans country United States
-datetime: 02-16-2019
-Foo Fighters
-venue name :  Epicenter Festival
-city : Rockingham country United States
-datetime: 05-12-2019
-Foo Fighters
-venue name :  Sonic Temple Festival (May 17-19)
-city : Columbus country United States
-datetime: 05-17-2019
-Foo Fighters
-venue name :  Pula Arena
-city : Pula country Croatia
-datetime: 06-18-2019
-Foo Fighters
-venue name :  Pula Arena
-city : Pula country Croatia
-datetime: 06-19-2019
-Foo Fighters
-venue name :  Southside Festival
-city : Neuhausen Ob Eck country Germany
-datetime: 06-21-2019
-Foo Fighters
-venue name :  Hurricane Festival
-city : Scheeßel country Germany
-datetime: 06-23-2019
-Foo Fighters
-venue name :  Faengslet
-city : Horsens country Denmark
-datetime: 06-25-2019
-Foo Fighters
-venue name :  Koengen Fortress
-city : Bergen country Norway
-datetime: 06-27-2019
-Foo Fighters
-venue name :  Lollapalooza Stockholm (28-29 June)
-city : Stockholm country Sweden
-datetime: 06-29-2019
-Foo Fighters
-venue name :  Sziget Festival
-city : Budapest country Hungary
-datetime: 08-13-2019
-Foo Fighters
-venue name :  Glasgow Summer Sessions
-city : Glasgow country United Kingdom
-datetime: 08-17-2019
-Foo Fighters
-venue name :  Vital Festival
-city : Belfast country United Kingdom
-datetime: 08-19-2019
-Foo Fighters
-venue name :  RDS Arena
-city : Dublin country Ireland
-datetime: 08-21-2019
-Foo Fighters
-venue name :  Leeds Festival
-city : Leeds country United Kingdom
-datetime: 08-23-2019
-Foo Fighters
-venue name :  Reading Festival
-city : Reading country United Kingdom
-datetime: 08-25-2019
-Foo Fighters
-
--------
-Fri Jan 25 2019 16:20:32 GMT-0500
--------
-venue name :  DIRECTV Super Saturday Night
-city : Atlanta country United States
-datetime: 02-02-2019
 lineup: Foo Fighters
 
 venue name :  The Fillmore New Orleans
@@ -188,47 +318,7 @@ lineup: Foo Fighters
 
 
 -------
-Fri Jan 25 2019 16:31:51 GMT-0500
--------
-
--------
-Fri Jan 25 2019 16:33:43 GMT-0500
--------
-
--------
-Fri Jan 25 2019 16:35:24 GMT-0500
--------
-
--------
-Fri Jan 25 2019 16:39:20 GMT-0500
--------
-
--------
-Fri Jan 25 2019 16:40:00 GMT-0500
--------
-
--------
-Fri Jan 25 2019 16:40:37 GMT-0500
--------
-
--------
-Fri Jan 25 2019 16:43:19 GMT-0500
--------
-
--------
-Fri Jan 25 2019 16:44:09 GMT-0500
--------
-
--------
-Fri Jan 25 2019 16:45:03 GMT-0500
--------
-
--------
-Fri Jan 25 2019 16:45:54 GMT-0500
--------
-
--------
-Fri Jan 25 2019 16:48:43 GMT-0500
+Mon Jan 28 2019 17:10:23 GMT-0500
 -------
 Artist:  Led Zeppelin
 Song:  Stairway To Heaven
@@ -246,7 +336,7 @@ Album:  Led Zeppelin IV (Remastered Version)
 Preview URL:  https://p.scdn.co/mp3-preview/8226164717312bc411f8635580562d67e191a754?cid=4f17c33480014e18b6416ca14b3ebba7
 
 Artist:  Led Zeppelin
-Song:  Stairway To Heaven
+Song:  Stairway to Heaven - Page Remasters EQ Version
 Album:  Mothership (Remastered)
 Preview URL:  https://p.scdn.co/mp3-preview/e62fbd1d001c8d94791418f3847c8b6b7796217b?cid=4f17c33480014e18b6416ca14b3ebba7
 
@@ -275,30 +365,30 @@ Song:  Stairway To Heaven - Remastered
 Album:  The Song Remains The Same
 Preview URL:  https://p.scdn.co/mp3-preview/5e34b44b746edbe22aa39b958a2acf6f226119a6?cid=4f17c33480014e18b6416ca14b3ebba7
 
-Artist:  Led Zeppelin
-Song:  Stairway To Heaven
-Album:  Led Zeppelin x Led Zeppelin
-Preview URL:  https://p.scdn.co/mp3-preview/8226164717312bc411f8635580562d67e191a754?cid=4f17c33480014e18b6416ca14b3ebba7
-
 Artist:  Rockabye Baby!
 Song:  Stairway to Heaven
 Album:  Lullaby Renditions of Led Zeppelin
 Preview URL:  https://p.scdn.co/mp3-preview/bc687e96b401fe56e27fe1cb065ba1b88a7612ef?cid=4f17c33480014e18b6416ca14b3ebba7
 
 Artist:  Led Zeppelin
+Song:  Stairway To Heaven
+Album:  Led Zeppelin x Led Zeppelin
+Preview URL:  https://p.scdn.co/mp3-preview/8226164717312bc411f8635580562d67e191a754?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  Led Zeppelin
 Song:  Stairway To Heaven - Live
 Album:  How The West Was Won (Live)
 Preview URL:  https://p.scdn.co/mp3-preview/f497eed5a8e97cb97ea089d0a3b18c5a6e1853b4?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Rodrigo y Gabriela
-Song:  Stairway to Heaven
-Album:  Rodrigo y Gabriela
-Preview URL:  https://p.scdn.co/mp3-preview/7caa28a1c0d63dac8049a1776f49f0b54a496b05?cid=4f17c33480014e18b6416ca14b3ebba7
 
 Artist:  London Philharmonic Orchestra
 Song:  Stairway To Heaven
 Album:  Kashmir - Symphonic Led Zeppelin
 Preview URL:  null
+
+Artist:  Rodrigo y Gabriela
+Song:  Stairway to Heaven
+Album:  Rodrigo y Gabriela
+Preview URL:  https://p.scdn.co/mp3-preview/7caa28a1c0d63dac8049a1776f49f0b54a496b05?cid=4f17c33480014e18b6416ca14b3ebba7
 
 Artist:  Led Zeppelin
 Song:  Stairway To Heaven - Sunset Sound Mix
@@ -309,11 +399,6 @@ Artist:  Cypress Hill
 Song:  Stairway to Heaven
 Album:  Elephants on Acid
 Preview URL:  https://p.scdn.co/mp3-preview/b25f888652f08bf21463390e3a2b902bdbafd2bd?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Gui Boratto
-Song:  This Is Not the End - Ame Mix
-Album:  Stairway to Heaven 3
-Preview URL:  https://p.scdn.co/mp3-preview/f5e1d0e039870a7785e701d0bb0b2da602ae7e5b?cid=4f17c33480014e18b6416ca14b3ebba7
 
 Artist:  The O'Jays
 Song:  Stairway To Heaven
@@ -330,151 +415,182 @@ Song:  Stairway To Heaven - Live: O2 Arena, London - December 10, 2007
 Album:  Celebration Day
 Preview URL:  https://p.scdn.co/mp3-preview/3cc5478e2fb594a800ec9482e18bfbe3db25ba84?cid=4f17c33480014e18b6416ca14b3ebba7
 
+Artist:  Led Zeppelin
+Song:  Stairway to Heaven - 1/4/71 Paris Theatre; 2016 Remaster
+Album:  The Complete BBC Sessions
+Preview URL:  https://p.scdn.co/mp3-preview/c2586acd4b782e0c06d2170f4c36caf6f5387de1?cid=4f17c33480014e18b6416ca14b3ebba7
+
 
 -------
-Fri Jan 25 2019 19:26:43 GMT-0500
+Mon Jan 28 2019 17:10:29 GMT-0500
 -------
 
 -------
-Fri Jan 25 2019 19:26:59 GMT-0500
+Mon Jan 28 2019 17:10:42 GMT-0500
 -------
-Artist:  Lil Peep
-Song:  Falling Down - Bonus Track
-Album:  Come Over When You're Sober, Pt. 2
-Preview URL:  https://p.scdn.co/mp3-preview/2798c8f88316e54813b02e78803b9f44bf204b05?cid=4f17c33480014e18b6416ca14b3ebba7
 
-Artist:  Demi Lovato
-Song:  Sober
-Album:  Sober
+-------
+Mon Jan 28 2019 17:10:52 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:11:12 GMT-0500
+-------
+Artist:  A$AP Rocky
+Song:  L$D
+Album:  AT.LONG.LAST.A$AP
+Preview URL:  https://p.scdn.co/mp3-preview/acc8c9d799cd91fcb1045ad7ba44663a4f574c80?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  Bryson Tiller
+Song:  Exchange
+Album:  T R A P S O U L
+Preview URL:  https://p.scdn.co/mp3-preview/924cf0f5d82ac72294253a914bf6da9ce01063b9?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  Bryson Tiller
+Song:  Don't
+Album:  T R A P S O U L
+Preview URL:  https://p.scdn.co/mp3-preview/5ab22367ec125e114c0b3bb8b4f7223ceabb6514?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  Bryson Tiller
+Song:  Right My Wrongs
+Album:  T R A P S O U L
+Preview URL:  https://p.scdn.co/mp3-preview/bfebcd3cf972bed24645e98029e3188f86b36437?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  Quavo
+Song:  LAMB TALK
+Album:  L A M B T A L K
 Preview URL:  null
 
-Artist:  Childish Gambino
-Song:  Sober
-Album:  Kauai
+Artist:  blackbear
+Song:  N Y L A
+Album:  N Y L A
+Preview URL:  https://p.scdn.co/mp3-preview/31bbd502c7b8dac8251a26249918dddf85e69b7e?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  Pharrell Williams
+Song:  Happy - From "Despicable Me 2"
+Album:  G I R L
+Preview URL:  https://p.scdn.co/mp3-preview/67cffdcb7e3c82a5eb2e5f0bb235d377ccc94eeb?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  Bryson Tiller
+Song:  Sorry Not Sorry
+Album:  T R A P S O U L
+Preview URL:  https://p.scdn.co/mp3-preview/ec075793254e57a976a403cb78f526375fb27508?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  Claude Debussy
+Song:  Clair de Lune, L. 32
+Album:  Debussy: Clair De Lune and Other Piano Favourites
+Preview URL:  https://p.scdn.co/mp3-preview/79531c59dbfc3679d23407dfdcb9a9461318c9a3?cid=4f17c33480014e18b6416ca14b3ebba7
+
+Artist:  Jaden Smith
+Song:  L
+Album:  SYRE
 Preview URL:  null
 
-Artist:  AJR
-Song:  Sober Up
-Album:  The Click
-Preview URL:  https://p.scdn.co/mp3-preview/2d132ed179e45df4f9f7bbc36c0cd7ea842567b7?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Lil Peep
-Song:  Save That Shit
-Album:  Come Over When You're Sober, Pt. 1
-Preview URL:  https://p.scdn.co/mp3-preview/8058676c82db42a04ceceb90826af22f7726768a?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  G-Eazy
-Song:  Sober
-Album:  The Beautiful & Damned
-Preview URL:  https://p.scdn.co/mp3-preview/f4517cb283dd23d21feb061873a6e35e82ee3f20?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Lil Peep
-Song:  Life is Beautiful
-Album:  Come Over When You're Sober, Pt. 2
-Preview URL:  https://p.scdn.co/mp3-preview/114ba8f7680c4b01ae17600ac3e4056df927c460?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Chief Keef
-Song:  Hate Bein' Sober
-Album:  Finally Rich (Deluxe)
+Artist:  Claude Debussy
+Song:  Rêverie, L. 68: Rêverie
+Album:  Debussy Piano Edition
 Preview URL:  null
 
-Artist:  Lil Peep
-Song:  Awful Things
-Album:  Come Over When You're Sober, Pt. 1
-Preview URL:  https://p.scdn.co/mp3-preview/4882cdac640a581c3a9c59c0072002e4cd2a8e5e?cid=4f17c33480014e18b6416ca14b3ebba7
+Artist:  DYSN
+Song:  I R L (feat. Prelow)
+Album:  I R L (feat. Prelow)
+Preview URL:  https://p.scdn.co/mp3-preview/cd6013175017092debe3ebd0adc045969fbce2d9?cid=4f17c33480014e18b6416ca14b3ebba7
 
-Artist:  Bazzi
-Song:  Sober
-Album:  Sober
-Preview URL:  https://p.scdn.co/mp3-preview/2dee285baf0c181c24ed005185e0831f79a0bc1c?cid=4f17c33480014e18b6416ca14b3ebba7
+Artist:  Nat King Cole
+Song:  L-O-V-E
+Album:  L-O-V-E
+Preview URL:  null
 
-Artist:  Lil Peep
-Song:  Sex with My Ex
-Album:  Come Over When You're Sober, Pt. 2
-Preview URL:  https://p.scdn.co/mp3-preview/1ae793bfb38421b3633bbdf4db1de188fe0a3ad1?cid=4f17c33480014e18b6416ca14b3ebba7
+Artist:  Bryson Tiller
+Song:  Been That Way
+Album:  T R A P S O U L
+Preview URL:  https://p.scdn.co/mp3-preview/2c6f24bfd15ea94bb40f2dd004feaae9f71fdc61?cid=4f17c33480014e18b6416ca14b3ebba7
 
-Artist:  Lil Peep
-Song:  Runaway
-Album:  Come Over When You're Sober, Pt. 2
-Preview URL:  https://p.scdn.co/mp3-preview/1d5c73e63e8419d562aee484a882b8da2429147b?cid=4f17c33480014e18b6416ca14b3ebba7
+Artist:  Bryson Tiller
+Song:  Overtime
+Album:  T R A P S O U L
+Preview URL:  https://p.scdn.co/mp3-preview/78988259590e8fa57bb6e4cd688b192f04464163?cid=4f17c33480014e18b6416ca14b3ebba7
 
-Artist:  Lil Peep
-Song:  Benz Truck (гелик)
-Album:  Come Over When You're Sober, Pt. 1
-Preview URL:  https://p.scdn.co/mp3-preview/1e472eb7e1e81149afa679fe64f5a317be34184d?cid=4f17c33480014e18b6416ca14b3ebba7
+Artist:  Diamond D
+Song:  Day One (feat. Big L, A.G., Lord Finesse, & O.C.)
+Album:  Rare & Unreleased
+Preview URL:  https://p.scdn.co/mp3-preview/25def41865afe1544a377ca8c8d4165a91cda106?cid=4f17c33480014e18b6416ca14b3ebba7
 
-Artist:  Lil Peep
-Song:  Cry Alone
-Album:  Come Over When You're Sober, Pt. 2
-Preview URL:  https://p.scdn.co/mp3-preview/196e600f351c98e45426284763d714d12e1584e7?cid=4f17c33480014e18b6416ca14b3ebba7
+Artist:  Bryson Tiller
+Song:  Let Em' Know
+Album:  T R A P S O U L
+Preview URL:  https://p.scdn.co/mp3-preview/932a1c07eb726480b3bf448809b0331d5ef94c2e?cid=4f17c33480014e18b6416ca14b3ebba7
 
-Artist:  Kane Brown
-Song:  Used to Love You Sober
-Album:  Chapter 1 - EP
-Preview URL:  https://p.scdn.co/mp3-preview/5f4fd6bde82465dd31f2b4d94f9f69b78e591423?cid=4f17c33480014e18b6416ca14b3ebba7
+Artist:  NEEDTOBREATHE
+Song:  TESTIFY
+Album:  H A R D L O V E
+Preview URL:  https://p.scdn.co/mp3-preview/6d0e86c7d43094218937c985f6f779707c186c67?cid=4f17c33480014e18b6416ca14b3ebba7
 
-Artist:  Lil Peep
-Song:  Broken Smile (My All)
-Album:  Come Over When You're Sober, Pt. 2
-Preview URL:  https://p.scdn.co/mp3-preview/0f4d617e983fcb72adced4f4e7c6f1eb6f9154c3?cid=4f17c33480014e18b6416ca14b3ebba7
+Artist:  Bryson Tiller
+Song:  Rambo
+Album:  T R A P S O U L
+Preview URL:  https://p.scdn.co/mp3-preview/ac6cbc9c396136ab0a448227a84c5cfea930640a?cid=4f17c33480014e18b6416ca14b3ebba7
 
-Artist:  Lil Peep
-Song:  Better Off (Dying)
-Album:  Come Over When You're Sober, Pt. 1
-Preview URL:  https://p.scdn.co/mp3-preview/fb9a2b1f5bb0e2d4fc8930b8a6f7197f9b588b76?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Lil Peep
-Song:  U Said
-Album:  Come Over When You're Sober, Pt. 1
-Preview URL:  https://p.scdn.co/mp3-preview/4f69f3ec9292cbe1a181b01cf91b25ecd2d630b3?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  P!nk
-Song:  Sober
-Album:  Funhouse
-Preview URL:  https://p.scdn.co/mp3-preview/c6cc4cfa03a03ec15701d9e725147b01bf429f00?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Lil Peep
-Song:  16 Lines
-Album:  Come Over When You're Sober, Pt. 2
-Preview URL:  https://p.scdn.co/mp3-preview/17e75b8d2b37df2af10f3f8a440e54fcf3ddbc1f?cid=4f17c33480014e18b6416ca14b3ebba7
+Artist:  Rosario Dawson
+Song:  Seasons Of Love
+Album:  RENT (Original Motion Picture Soundtrack)
+Preview URL:  https://p.scdn.co/mp3-preview/445f834c0c78ef8aba3af3e4436d513cbab01687?cid=4f17c33480014e18b6416ca14b3ebba7
 
 
 -------
-Fri Jan 25 2019 19:27:32 GMT-0500
+Mon Jan 28 2019 17:11:32 GMT-0500
 -------
 
 -------
-Fri Jan 25 2019 19:27:47 GMT-0500
+Mon Jan 28 2019 17:12:35 GMT-0500
 -------
 
 -------
-Fri Jan 25 2019 19:28:13 GMT-0500
+Mon Jan 28 2019 17:12:39 GMT-0500
 -------
 
 -------
-Fri Jan 25 2019 19:29:09 GMT-0500
--------
-Title: Pulp Fiction
-Year: 1994
-Rated: R
-Internet Movie Database : 8.9/10
-Rotten Tomatoes : 94%
-Metacritic : 94/100
-Country: USA 
-Language: English, Spanish, French 
-Plot: The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption. 
-Actors: Tim Roth, Amanda Plummer, Laura Lovelace, John Travolta
-
--------
-Fri Jan 25 2019 22:57:38 GMT-0500
+Mon Jan 28 2019 17:12:43 GMT-0500
 -------
 
 -------
-Fri Jan 25 2019 22:58:06 GMT-0500
+Mon Jan 28 2019 17:13:08 GMT-0500
 -------
 
 -------
-Fri Jan 25 2019 22:58:31 GMT-0500
+Mon Jan 28 2019 17:13:13 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:13:16 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:13:29 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:13:43 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:14:42 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:14:59 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:15:55 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:16:46 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:16:54 GMT-0500
 -------
 Title: Jaws
 Year: 1975
@@ -488,7 +604,45 @@ Plot: When a killer shark unleashes chaos on a beach resort, it's up to a local 
 Actors: Roy Scheider, Robert Shaw, Richard Dreyfuss, Lorraine Gary
 
 -------
-Fri Jan 25 2019 22:59:48 GMT-0500
+Mon Jan 28 2019 17:17:03 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:17:08 GMT-0500
+-------
+Title: Jaws
+Year: 1975
+Rated: PG
+Internet Movie Database : 8.0/10
+Rotten Tomatoes : 97%
+Metacritic : 87/100
+Country: USA 
+Language: English 
+Plot: When a killer shark unleashes chaos on a beach resort, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down. 
+Actors: Roy Scheider, Robert Shaw, Richard Dreyfuss, Lorraine Gary
+
+-------
+Mon Jan 28 2019 17:17:13 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:17:33 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:18:12 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:18:28 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:18:36 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:18:43 GMT-0500
 -------
 venue name :  DIRECTV Super Saturday Night
 city : Atlanta country United States
@@ -582,297 +736,97 @@ lineup: Foo Fighters
 
 
 -------
-Fri Jan 25 2019 23:01:03 GMT-0500
+Mon Jan 28 2019 17:18:48 GMT-0500
 -------
 
 -------
-Fri Jan 25 2019 23:01:42 GMT-0500
+Mon Jan 28 2019 17:18:52 GMT-0500
 -------
 
 -------
-Fri Jan 25 2019 23:02:05 GMT-0500
--------
-Artist:  Kidz Bop Kids
-Song:  Party In The USA
-Album:  Kidz Bop 17
-Preview URL:  null
-
-Artist:  DJ Crazy J Rodriguez
-Song:  Party & Bullshit In The USA
-Album:  Mashed Up Summer Of 2010
-Preview URL:  https://p.scdn.co/mp3-preview/13c39f2efbf1e975826c64d74b2e6b47618c0cef?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Kidz Bop Kids
-Song:  Party In The USA
-Album:  Kidz Bop Party Hits
-Preview URL:  null
-
-Artist:  Rockabye Baby!
-Song:  Party in the USA
-Album:  Birthday Party
-Preview URL:  https://p.scdn.co/mp3-preview/62ed3a6216d36ea184c959b9977eeabfdc66fd46?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Kidz Bop Kids
-Song:  Party In The USA
-Album:  Kidz Bop Dance Party!
-Preview URL:  null
-
-Artist:  Kidz Bop Kids
-Song:  Party In The USA
-Album:  Kidz Bop Ultimate Hits
-Preview URL:  null
-
-Artist:  Signature A Cappella
-Song:  Party in the USA
-Album:  Take Flight
-Preview URL:  https://p.scdn.co/mp3-preview/6b599ddf41ff48e49606db4a9a98859019641014?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Lydia Davids
-Song:  Party in the USA
-Album:  Party in the USA
-Preview URL:  https://p.scdn.co/mp3-preview/1899e05dc58504425cf0406e9f4f6ce0f599d2b1?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Florida Cruise
-Song:  It's a Party in the USA
-Album:  Party in the USA
-Preview URL:  https://p.scdn.co/mp3-preview/dea4c680e02d27637a27c9e1d1f58630d4bd462d?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Workaholics
-Song:  Party in the USA
-Album:  Workout Music
-Preview URL:  https://p.scdn.co/mp3-preview/322e860850d482beb103649960e187ae9588c8a8?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Tyanna Jones
-Song:  Party In The USA
-Album:  American Idol Top 6 Season 14
-Preview URL:  null
-
-Artist:  Kids Dance Party
-Song:  Party in the USA
-Album:  Kids Dance Party
-Preview URL:  https://p.scdn.co/mp3-preview/2c1ec1486d597cfb707084e285e4fd985381b89a?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  DJ Timbo and Friends
-Song:  Farting in the USA (Miley Cyrus Parody) Silent But Deadly Party Mix
-Album:  Farting in the USA (Miley Cyrus Parody) Silent But Deadly Party Mix
-Preview URL:  https://p.scdn.co/mp3-preview/2e2a43e7bfd7d820ede075b4c16ff4bda1330e4d?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Loud Boyz
-Song:  Party in the USA
-Album:  Party in the USA
-Preview URL:  https://p.scdn.co/mp3-preview/78483e7945f3c261ebae1b706406249895fd069e?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  SingLike
-Song:  Party in the USA
-Album:  Party in the USA - Single
-Preview URL:  https://p.scdn.co/mp3-preview/0a16b67f9046c40f650c31b2ff29f951891a49fe?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Party Song Instrumentals
-Song:  Party in the USA - Instrumental
-Album:  Party Song Instrumentals
-Preview URL:  https://p.scdn.co/mp3-preview/3d8de1dbbd44bb018c85415e8fba97c3c2205ac7?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  The Smash Giants
-Song:  It's a Party in the USA
-Album:  Party in The USA
-Preview URL:  https://p.scdn.co/mp3-preview/dea4c680e02d27637a27c9e1d1f58630d4bd462d?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  R3HAB
-Song:  Pump the Party
-Album:  Dance Mix USA In the Club (Mixed by Ted the Dillenger) [Continuous DJ Mix]
-Preview URL:  https://p.scdn.co/mp3-preview/ab7285a25f3a255e99937c9694b5e395d7cb43cb?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Toddlers & Tiaras Dance Party
-Song:  Party in the USA
-Album:  Toddlers and Tiaras Kids Dance Party
-Preview URL:  https://p.scdn.co/mp3-preview/322e860850d482beb103649960e187ae9588c8a8?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Macarena Party Kids
-Song:  Party in the USA
-Album:  Macarena Kids
-Preview URL:  https://p.scdn.co/mp3-preview/322e860850d482beb103649960e187ae9588c8a8?cid=4f17c33480014e18b6416ca14b3ebba7
-
-
--------
-Fri Jan 25 2019 23:03:36 GMT-0500
--------
-Artist:  Led Zeppelin
-Song:  Stairway To Heaven
-Album:  Led Zeppelin IV (Deluxe Edition)
-Preview URL:  https://p.scdn.co/mp3-preview/8226164717312bc411f8635580562d67e191a754?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Led Zeppelin
-Song:  Stairway To Heaven
-Album:  Led Zeppelin IV
-Preview URL:  https://p.scdn.co/mp3-preview/da57b9497b855355f1874eac17817d25eb90b71d?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Led Zeppelin
-Song:  Stairway To Heaven
-Album:  Led Zeppelin IV (Remastered Version)
-Preview URL:  https://p.scdn.co/mp3-preview/8226164717312bc411f8635580562d67e191a754?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Led Zeppelin
-Song:  Stairway To Heaven
-Album:  Mothership (Remastered)
-Preview URL:  https://p.scdn.co/mp3-preview/e62fbd1d001c8d94791418f3847c8b6b7796217b?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Led Zeppelin
-Song:  Stairway To Heaven
-Album:  An Introduction To Led Zeppelin
-Preview URL:  https://p.scdn.co/mp3-preview/8226164717312bc411f8635580562d67e191a754?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Heart
-Song:  Stairway to Heaven (Live At The Kennedy Center Honors)
-Album:  Stairway to Heaven (Live At The Kennedy Center Honors)
-Preview URL:  https://p.scdn.co/mp3-preview/7146509263fae5c8394179a67f68ecf848e2fa9c?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  The O'Jays
-Song:  Stairway to Heaven
-Album:  The Ultimate O'Jays
-Preview URL:  https://p.scdn.co/mp3-preview/4f409c4b4a84020234db503d666b2f2ed9dba58b?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Rodrigo y Gabriela
-Song:  Stairway To Heaven - Remastered
-Album:  Rodrigo Y Gabriela (Deluxe)
-Preview URL:  null
-
-Artist:  Led Zeppelin
-Song:  Stairway To Heaven - Remastered
-Album:  The Song Remains The Same
-Preview URL:  https://p.scdn.co/mp3-preview/5e34b44b746edbe22aa39b958a2acf6f226119a6?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Led Zeppelin
-Song:  Stairway To Heaven
-Album:  Led Zeppelin x Led Zeppelin
-Preview URL:  https://p.scdn.co/mp3-preview/8226164717312bc411f8635580562d67e191a754?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Rockabye Baby!
-Song:  Stairway to Heaven
-Album:  Lullaby Renditions of Led Zeppelin
-Preview URL:  https://p.scdn.co/mp3-preview/bc687e96b401fe56e27fe1cb065ba1b88a7612ef?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Led Zeppelin
-Song:  Stairway To Heaven - Live
-Album:  How The West Was Won (Live)
-Preview URL:  https://p.scdn.co/mp3-preview/f497eed5a8e97cb97ea089d0a3b18c5a6e1853b4?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Rodrigo y Gabriela
-Song:  Stairway to Heaven
-Album:  Rodrigo y Gabriela
-Preview URL:  https://p.scdn.co/mp3-preview/7caa28a1c0d63dac8049a1776f49f0b54a496b05?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  London Philharmonic Orchestra
-Song:  Stairway To Heaven
-Album:  Kashmir - Symphonic Led Zeppelin
-Preview URL:  null
-
-Artist:  Led Zeppelin
-Song:  Stairway To Heaven - Sunset Sound Mix
-Album:  Led Zeppelin IV (Deluxe Edition)
-Preview URL:  https://p.scdn.co/mp3-preview/861286f51d72e8efee96586ab073e2d45ce24aa8?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Cypress Hill
-Song:  Stairway to Heaven
-Album:  Elephants on Acid
-Preview URL:  https://p.scdn.co/mp3-preview/b25f888652f08bf21463390e3a2b902bdbafd2bd?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Gui Boratto
-Song:  This Is Not the End - Ame Mix
-Album:  Stairway to Heaven 3
-Preview URL:  https://p.scdn.co/mp3-preview/f5e1d0e039870a7785e701d0bb0b2da602ae7e5b?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  The O'Jays
-Song:  Stairway To Heaven
-Album:  Let Me Make Love To You
-Preview URL:  https://p.scdn.co/mp3-preview/72f54dea053f41d46f996ac200575c3c6ffd16f0?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Me First and the Gimme Gimmes
-Song:  Stairway to Heaven
-Album:  Ruin Jonny's Bar Mitzvah
-Preview URL:  https://p.scdn.co/mp3-preview/aa9800ce8b45499e7ccc524d0f03fd60c2ef59ff?cid=4f17c33480014e18b6416ca14b3ebba7
-
-Artist:  Led Zeppelin
-Song:  Stairway To Heaven - Live: O2 Arena, London - December 10, 2007
-Album:  Celebration Day
-Preview URL:  https://p.scdn.co/mp3-preview/3cc5478e2fb594a800ec9482e18bfbe3db25ba84?cid=4f17c33480014e18b6416ca14b3ebba7
-
-
--------
-Fri Jan 25 2019 23:04:25 GMT-0500
--------
-Title: John Wick
-Year: 2014
-Rated: R
-Internet Movie Database : 7.3/10
-Rotten Tomatoes : 87%
-Metacritic : 68/100
-Country: China, USA 
-Language: English, Russian, Hungarian 
-Plot: An ex-hit-man comes out of retirement to track down the gangsters that killed his dog and took everything from him. 
-Actors: Keanu Reeves, Michael Nyqvist, Alfie Allen, Willem Dafoe
-
--------
-Mon Jan 28 2019 09:56:35 GMT-0500
+Mon Jan 28 2019 17:19:55 GMT-0500
 -------
 
 -------
-Mon Jan 28 2019 09:56:55 GMT-0500
+Mon Jan 28 2019 17:20:42 GMT-0500
 -------
 
 -------
-Mon Jan 28 2019 09:57:06 GMT-0500
--------
-Title: undefined
-Year: undefined
-Rated: undefined
-Country: undefined 
-Language: undefined 
-Plot: undefined 
-Actors: undefined
-
--------
-Mon Jan 28 2019 09:58:53 GMT-0500
--------
-Title: undefined
-Year: undefined
-Rated: undefined
-Country: undefined 
-Language: undefined 
-Plot: undefined 
-Actors: undefined
-
--------
-Mon Jan 28 2019 09:59:14 GMT-0500
+Mon Jan 28 2019 17:21:31 GMT-0500
 -------
 
 -------
-Mon Jan 28 2019 15:22:46 GMT-0500
+Mon Jan 28 2019 17:21:41 GMT-0500
 -------
 
 -------
-Mon Jan 28 2019 15:23:16 GMT-0500
+Mon Jan 28 2019 17:22:21 GMT-0500
 -------
 
 -------
-Mon Jan 28 2019 15:23:59 GMT-0500
+Mon Jan 28 2019 17:22:44 GMT-0500
 -------
 
 -------
-Mon Jan 28 2019 15:24:13 GMT-0500
+Mon Jan 28 2019 17:23:23 GMT-0500
 -------
 
 -------
-Mon Jan 28 2019 15:24:40 GMT-0500
+Mon Jan 28 2019 17:23:54 GMT-0500
 -------
 
 -------
-Mon Jan 28 2019 11:11:04 GMT-0500
+Mon Jan 28 2019 17:24:26 GMT-0500
 -------
 
 -------
-Mon Jan 28 2019 11:11:26 GMT-0500
+Mon Jan 28 2019 17:24:30 GMT-0500
 -------
 
 -------
-Mon Jan 28 2019 11:11:39 GMT-0500
+Mon Jan 28 2019 17:24:35 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:24:38 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:24:40 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:24:44 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:24:53 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:25:43 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:26:07 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:27:10 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:27:26 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:28:26 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:28:45 GMT-0500
+-------
+
+-------
+Mon Jan 28 2019 17:29:45 GMT-0500
 -------
