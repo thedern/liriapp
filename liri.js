@@ -20,8 +20,6 @@ var fs = require('fs');
 // import moment and general date/time manipulation
 var moment = require('moment');
 var now = moment();
-// log execution time of the script
-logger(`\n-------\n${now}\n-------\n`);
 
 // END GENERAL CONFIGS
 
@@ -61,7 +59,10 @@ function movieSearch(movie) {
         
             var mlogInfo1 = (`Title: ${response.data.Title}\nYear: ${response.data.Year}\nRated: ${response.data.Rated}`);
             console.log(mlogInfo1);
-            // call logger
+            
+            // log execution time of the script
+            logger(`\n-------\n${now}\n-------\n`);
+            // log Title, year, rating
             logger(`${mlogInfo1}\n`);
 
             // the critics ratings are a serices of objects (source : rating) from IMDB, Tomatoes, and Metacritic
@@ -123,6 +124,8 @@ function bandSearch(artist) {
                 the response object is one large object consisting of numeric keys who's
                 value pair is an object consisting of sub-objects
             */
+                // log execution time of the script
+                logger(`\n-------\n${now}\n-------\n`);
 
                 // iterate through the returned response object and get the value of each key/value pair and capture it
                 for (var key in response.data) {
@@ -191,10 +194,13 @@ function musicSearch(song) {
         
         // guardian statement for nonsense input :)
         if (response.tracks.items.length === 0) {
-            console.log('the requested song does not exist within spotify, please search for another')
+            console.log('the requested song does not exist within spotify, please search for another');
             process.exit();
         }
         
+        // log execution time of the script
+        logger(`\n-------\n${now}\n-------\n`);
+
         // song captures array of tracks
         var song = response.tracks.items;
         // see how many tracks by console logging the length of the song array
